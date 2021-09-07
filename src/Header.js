@@ -4,13 +4,15 @@ import Drink from "./drink.js";
 const Header = () => {
 
   const [myDrinks, setMyDrinks] = useState([]);
+  const [search, setSearch] = useState("");
 
   async function getDrinks() {
-      let response = await fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a`)
+      let response = await fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?f=${search}`)
       response = await response.json();
       setMyDrinks(response.drinks);  
       console.log(response.drinks);   
   };
+
 
   return (
     <>
@@ -20,6 +22,8 @@ const Header = () => {
             <input
               type="text"
               placeholder="Search for a Cocktail..."
+              value={search}
+              onChange={(e)=> setSearch(e.target.value)}
             />
 
             <button type='submit' onClick={async ()=> {await getDrinks()}}>

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/magic-cocktail/static/css/main.9fbb874e.chunk.css",
+    "main.js": "/magic-cocktail/static/js/main.119f69ec.chunk.js",
+    "main.js.map": "/magic-cocktail/static/js/main.119f69ec.chunk.js.map",
+    "runtime-main.js": "/magic-cocktail/static/js/runtime-main.aaa215cf.js",
+    "runtime-main.js.map": "/magic-cocktail/static/js/runtime-main.aaa215cf.js.map",
+    "static/js/2.8c458950.chunk.js": "/magic-cocktail/static/js/2.8c458950.chunk.js",
+    "static/js/2.8c458950.chunk.js.map": "/magic-cocktail/static/js/2.8c458950.chunk.js.map",
+    "index.html": "/magic-cocktail/index.html",
+    "static/css/main.9fbb874e.chunk.css.map": "/magic-cocktail/static/css/main.9fbb874e.chunk.css.map",
+    "static/js/2.8c458950.chunk.js.LICENSE.txt": "/magic-cocktail/static/js/2.8c458950.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aaa215cf.js",
+    "static/js/2.8c458950.chunk.js",
+    "static/css/main.9fbb874e.chunk.css",
+    "static/js/main.119f69ec.chunk.js"
+  ]
+}

@@ -10,7 +10,7 @@ const Header = () => {
       let response = await fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?f=${search}`)
       response = await response.json();
       setMyDrinks(response.drinks);  
-      console.log(response.drinks);   
+        
   };
 
 
